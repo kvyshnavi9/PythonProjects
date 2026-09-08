@@ -1,0 +1,22 @@
+word_list = [
+    "apple",
+    "tiger",
+    "castle",
+    "rocket",
+    "banana",
+    "dragon",
+    "guitar",
+    "pirate",
+    "jungle",
+    "planet",
+    "wizard",
+    "coffee",
+    "school",
+    "computer",
+    "rainbow",
+    "diamond",
+    "elephant",
+    "sandwich",
+    "football",
+    "mountain"
+]
