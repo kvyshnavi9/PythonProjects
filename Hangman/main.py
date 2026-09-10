@@ -17,7 +17,7 @@ print(placeholder)
 
 #step3: Ask user to guess the letter
 game_over = False
-lives = len(chosen_word)
+lives = 6
 print(lives)
 
 while not game_over:
