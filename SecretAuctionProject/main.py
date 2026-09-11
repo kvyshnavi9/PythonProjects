@@ -15,9 +15,9 @@ amount = int(input("Enter the bid amount:\n$"))
 
 bid_dict [name] = amount
 
-should_cont = False
+bid_over = False
 
-while not should_cont:
+while not bid_over:
     res = input("Are there any other bidders. Type 'yes' or 'no' \n").lower()
     if res == "yes":
         clear_screen()
@@ -26,7 +26,7 @@ while not should_cont:
 
         bid_dict [name] = amount
     else:
-        should_cont = True
+        bid_over = True
 
 greater_key = ""   
 greater_value = 0  
