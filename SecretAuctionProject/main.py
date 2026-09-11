@@ -7,24 +7,18 @@ print("Welcome to the secret auction program.")
 def clear_screen():
     os.system("cls" if os.name == "nt" else "clear")
 
-
 bid_dict = {}
-
-name = input("Enter your name? \n")
-amount = int(input("Enter the bid amount:\n$"))
-
-bid_dict [name] = amount
 
 bid_over = False
 
 while not bid_over:
+    name = input("Enter your name? \n")
+    amount = int(input("Enter the bid amount:\n$"))
+    
+    bid_dict [name] = amount
     res = input("Are there any other bidders. Type 'yes' or 'no' \n").lower()
     if res == "yes":
         clear_screen()
-        name = input("Enter your name? \n")
-        amount = int(input("Enter the bid amount:\n$"))
-
-        bid_dict [name] = amount
     else:
         bid_over = True
 
